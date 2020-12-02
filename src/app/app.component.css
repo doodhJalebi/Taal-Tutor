@@ -39,7 +39,7 @@ h1, h4 {
     visibility: hidden;
 }
 
-#sitar-img {
+#sitar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -47,7 +47,7 @@ h1, h4 {
     opacity: 80%;
 }
 
-#tabla-img {
+#tabla {
     position: fixed;
     bottom: 0;
     right: 0;
