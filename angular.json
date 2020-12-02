@@ -21,7 +21,10 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/sounds/Bol/",
+              "src/assets/sounds/Theka/",
+              "src/assets/sounds/paths.ts"
             ],
             "styles": [
               "src/styles.css"
