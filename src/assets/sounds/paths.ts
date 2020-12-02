@@ -1,7 +1,6 @@
-export const sounds = {
+/* export const sounds = {
     dha: "../../assets/sounds/Bol/dha.mp3",
     dhin: "../../assets/sounds/Bol/dhin.mp3",
-    // kath: "../../assets/sounds/Bol/Kath.mp3",
     na: "../../assets/sounds/Bol/na.mp3",
     tin: "../../assets/sounds/Bol/tin.mp3",
     tirkit: "../../assets/sounds/Bol/tirkit.mp3",
@@ -11,9 +10,9 @@ export const sounds = {
     keherwa: "../../assets/sounds/Theka/keherwa.mp3",
     jhaptal: "../../assets/sounds/Theka/jhaptal.mp3",
     teentaal: "../../assets/sounds/Theka/teentaal.mp3"
-};
+}; */
 
-/* export const sounds = {
+export const sounds = {
     dha: "/Taal-Tutor/assets/sounds/Bol/dha.mp3",
     dhin: "/Taal-Tutor/assets/sounds/Bol/dhin.mp3",
     na: "/Taal-Tutor/assets/sounds/Bol/na.mp3",
@@ -25,4 +24,4 @@ export const sounds = {
     keherwa: "/Taal-Tutor/assets/sounds/Theka/keherwa.mp3",
     jhaptal: "/Taal-Tutor/assets/sounds/Theka/jhaptal.mp3",
     teentaal: "/Taal-Tutor/assets/sounds/Theka/teentaal.mp3"
-}; */
+};
