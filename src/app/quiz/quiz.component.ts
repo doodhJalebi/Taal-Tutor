@@ -20,6 +20,8 @@ export class QuizComponent implements OnInit {
     'https://www.youtube.com/embed/uEqYzdz3Zvg',
     'https://www.youtube.com/embed/9EljixrFh04',
     'https://www.youtube.com/embed/R0yoXTyH8Jo',
+    'https://www.youtube.com/embed/4Iq_pfISaEc',
+    'https://www.youtube.com/embed/m6Y55w1JMfw',
   ];
   correctAnswers: string[] = [
     'keherwa',
@@ -33,6 +35,8 @@ export class QuizComponent implements OnInit {
     'teentaal',
     'dadra',
     'dadra',
+    'jhaptal',
+    'jhaptal'
   ];
 
   allTaals: string[] = ['dadra', 'keherwa', 'rupak', 'jhaptal', 'teentaal'];
@@ -56,7 +60,7 @@ export class QuizComponent implements OnInit {
     /* Initialize quiz by generating totalQuestions number of 
     random indices corresponding to a question in videURLs. */
     while (this.questionIndices.length != this.totalQuestions) {
-      var index = Math.floor(Math.random() * 11);
+      var index = Math.floor(Math.random() * 13);
       if (!this.questionIndices.includes(index)) {
         this.questionIndices.push(index);
       }
