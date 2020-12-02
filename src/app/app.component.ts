@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'MoSAFinalApp';
   theka_name = "teentaal";
-  currentlyShow: number = 0; // Homepage - 0, Learn Taals - 1, Test Knowledge - 2
+  currentlyShow: number = 0; // Homepage - 0, Learn Taals - 1, Test Knowledge - 2, Identify - 3
 
   onClickLearn() {
     console.log(`onClickLearn`);
@@ -18,6 +18,10 @@ export class AppComponent {
   onClickTest() {
     console.log(`onClickTest`);
     this.currentlyShow = 2;
+  }
+
+  onClickIdentify() {
+    this.currentlyShow = 3;
   }
 
   onBack() {

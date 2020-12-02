@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThekaPageComponent implements OnInit {
 
-  allThekas: string[] = ['dadra', 'rupak', 'keherwa', 'jhaptal', 'ektal', 'teentaal'];
+  allThekas: string[] = ['dadra', 'rupak', 'keherwa', 'jhaptal', 'teentaal'];
   // allThekaNames: string[] = ['Dadra', 'Keherwa', 'Rupak', 'Jhaptal', 'Teentaal'];
   thekas: number[] = [...Array(5).keys()];
 

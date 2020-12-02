@@ -1,11 +1,15 @@
 <app-navbar></app-navbar>
+<img id="sitar-img" src="../assets/images/sitar.png" alt="sitar">
+<img id="tabla-img" src="../assets/images/tabla.png" alt="tabla">
 <button id="back-button" [class.hide]="currentlyShow === 0" (click)="onBack()">Back</button>
 <div id="main-content" *ngIf="currentlyShow === 0">
-    <h1>Welcome to Rythym & Taal</h1>
+    <h1>Welcome to Taal Tutor</h1>
     <div id="button-container">
         <button class="primary-button" (click)="onClickLearn()">Learn different Taals</button>
         <button class="primary-button" (click)="onClickTest()">Test yourself</button>
     </div>
+    <button class="primary-button" (click)="onClickIdentify()">How to identify a taal?</button>
 </div>
 <app-quiz *ngIf="currentlyShow === 2"></app-quiz>
 <app-theka-page *ngIf="currentlyShow === 1"></app-theka-page>
+<app-identify *ngIf="currentlyShow === 3"></app-identify>

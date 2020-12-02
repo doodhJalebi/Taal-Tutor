@@ -19,7 +19,6 @@
         <button id="rupak" #r (click)="updateThekaContent(r)">Rupak</button>
         <button id="keherwa" #k (click)="updateThekaContent(k)">Keherwa</button>
         <button id="jhaptal" #j (click)="updateThekaContent(j)">Jhaptal</button>
-        <button id="ektal" #e (click)="updateThekaContent(e)">Ektal</button>
         <button id="teentaal" #t (click)="updateThekaContent(t)">Teentaal</button>
     </div>
     <div id="theka-content">
@@ -27,7 +26,6 @@
         <app-theka *ngIf="thekaOnDisplay === 'rupak'" [theka_name]="allThekas[1]"></app-theka>
         <app-theka *ngIf="thekaOnDisplay === 'keherwa'" [theka_name]="allThekas[2]"></app-theka>
         <app-theka *ngIf="thekaOnDisplay === 'jhaptal'" [theka_name]="allThekas[3]"></app-theka>
-        <app-theka *ngIf="thekaOnDisplay === 'ektal'" [theka_name]="allThekas[4]"></app-theka>
-        <app-theka *ngIf="thekaOnDisplay === 'teentaal'" [theka_name]="allThekas[5]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'teentaal'" [theka_name]="allThekas[4]"></app-theka>
     </div>
 </div>

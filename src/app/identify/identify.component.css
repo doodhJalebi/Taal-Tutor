@@ -1,0 +1,13 @@
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 3.5em;
+    padding: 1em;
+    background-color: #CBA135;
+}
+
+li {
+    color: white;
+    margin: 1em;
+    font-weight: bold;
+}

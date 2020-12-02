@@ -21,9 +21,6 @@ export class BolComponent implements OnInit {
       case 'dhin':
         this.sound = new Audio(sounds.dhin);
         break;
-      case 'kath':
-        this.sound = new Audio(sounds.kath);
-        break;
       case 'na':
         this.sound = new Audio(sounds.na);
         break;

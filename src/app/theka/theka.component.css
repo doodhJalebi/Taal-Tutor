@@ -9,6 +9,7 @@ table, tr, td {
     justify-content: center;
     border-collapse: collapse;
     color: white;
+    background-color: #CBA135;
 }
 
 app-theka-player {

@@ -27,9 +27,6 @@ export class ThekaPlayerComponent implements OnInit, OnDestroy {
       case 'jhaptal':
         this.sound = new Audio(sounds.jhaptal);
         break;
-      case 'ektal':
-        this.sound = new Audio(sounds.ektal);
-        break;
       case 'teentaal':
         this.sound = new Audio(sounds.teentaal);
         break;
