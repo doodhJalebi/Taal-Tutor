@@ -1,5 +1,5 @@
 export const sounds = {
-    dha: "../../{{ baseurl }}/assets/sounds/Bol/Dha.mp3",
+    dha: "/assets/sounds/Bol/Dha.mp3",
     dhin: "../../assets/sounds/Bol/Dhin.mp3",
     kath: "../../assets/sounds/Bol/Kath.mp3",
     na: "../../assets/sounds/Bol/Na.mp3",
