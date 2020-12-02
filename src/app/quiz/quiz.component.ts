@@ -67,7 +67,7 @@ export class QuizComponent implements OnInit {
   }
 
   beginQuiz() {
-    console.log("Starting quiz...");
+    // console.log("Starting quiz...");
     this.hasStarted = true;
     this.updateQuestion();
   }
@@ -88,16 +88,16 @@ export class QuizComponent implements OnInit {
 
     // Shuffle options
     this.currentOptions = this.shuffle(this.currentOptions);
-    console.log("Question updated!");
-    console.log(`New URL is ${this.currentURL}`);
+    // console.log("Question updated!");
+    // console.log(`New URL is ${this.currentURL}`);
   }
 
   nextQuestion() {
-    console.log("Incrementing questionIndex and updating question...");
-    console.log(`Old questionIndex is ${this.questionIndex}`);
+    // console.log("Incrementing questionIndex and updating question...");
+    // console.log(`Old questionIndex is ${this.questionIndex}`);
     this.questionIndex++;
     this.updateQuestion();
-    console.log(`New questionIndex is ${this.questionIndex}`);
+    // console.log(`New questionIndex is ${this.questionIndex}`);
   }
 
   shuffle(array) {
@@ -116,7 +116,7 @@ export class QuizComponent implements OnInit {
   }
 
   onAnswer(value) {
-    console.log(value);
+    // console.log(value);
     if (value) {
       this.score++;
     }
