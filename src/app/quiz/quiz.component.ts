@@ -31,7 +31,7 @@ export class QuizComponent implements OnInit {
     'jhaptal',
     'teentaal',
     'teentaal',
-    'keherwa',
+    'dadra',
     'dadra',
   ];
 
