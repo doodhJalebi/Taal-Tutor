@@ -1,0 +1,11 @@
+<table>
+  <tr>
+    <td *ngFor="let bol of bols; index as i">{{ i + 1 }}</td>
+  </tr>
+  <tr>
+    <td *ngFor="let bol of bols">
+      <app-bol [name]="bol" class="theka-bol"></app-bol>
+    </td>
+  </tr>
+</table>
+<app-theka-player [theka_name]="theka_name"></app-theka-player>

@@ -1,0 +1,12 @@
+<h1 *ngIf="!hasStarted">Score: {{ score }}/{{ totalQuestions }}</h1>
+<h2 *ngIf="!hasStarted">{{ remarks }}</h2>
+<app-question
+  *ngIf="hasStarted"
+  [URL]="currentURL"
+  [answer]="currentAnswer"
+  [options]="currentOptions"
+  (answerEvent)="onAnswer($event)"
+></app-question>
+<footer>
+  <app-progressbar [totalQuestions]="totalQuestions" [currentProgress]="questionIndex"></app-progressbar>
+</footer>

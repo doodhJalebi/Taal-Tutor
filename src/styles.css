@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #5DA66B;
+    /* background-image: url("./assets/images/wallpaper.png"); */
+}

@@ -1,0 +1,40 @@
+#main-content {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+#button-container {
+    margin-top: 2em;
+}
+
+.primary-button {
+    background-color: #CBA135;
+    outline: none;
+    border: none;
+    /* border-radius: 1em; */
+    padding: 1em;
+    margin: 0.3em;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#back-button {
+    background-color: #CBA135;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding: 1em;   
+    color: white;
+}
+
+.hide {
+    visibility: hidden;
+}

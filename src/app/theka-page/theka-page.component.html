@@ -1,0 +1,33 @@
+<div id="intro">
+  <h3>Introduction</h3>
+
+  <p>
+    “Taal” or “tala” means to clap. It is the standard musical meter used in
+    South Asian music. An easier way to understand the idea of a taal is to
+    think of how you would tap your feet or bob your head along a song that you
+    really like. What you’re doing there is that you’re, unconsciously, finding
+    the “pulse” of the song and then moving along with it as if the song had
+    induced it’s rhythm into you by resonance. This is the “taal” of that song.
+    It is the rhythmic cycle of a piece of music represented by a person in the
+    form of claps instead of head bobs or tapped feet.
+  </p>
+</div>
+
+<div id="theka-widget">
+    <div id="button-col">
+        <button id="dadra" #d (click)="updateThekaContent(d)">Dadra</button>
+        <button id="rupak" #r (click)="updateThekaContent(r)">Rupak</button>
+        <button id="keherwa" #k (click)="updateThekaContent(k)">Keherwa</button>
+        <button id="jhaptal" #j (click)="updateThekaContent(j)">Jhaptal</button>
+        <button id="ektal" #e (click)="updateThekaContent(e)">Ektal</button>
+        <button id="teentaal" #t (click)="updateThekaContent(t)">Teentaal</button>
+    </div>
+    <div id="theka-content">
+        <app-theka *ngIf="thekaOnDisplay === 'dadra'" [theka_name]="allThekas[0]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'rupak'" [theka_name]="allThekas[1]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'keherwa'" [theka_name]="allThekas[2]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'jhaptal'" [theka_name]="allThekas[3]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'ektal'" [theka_name]="allThekas[4]"></app-theka>
+        <app-theka *ngIf="thekaOnDisplay === 'teentaal'" [theka_name]="allThekas[5]"></app-theka>
+    </div>
+</div>

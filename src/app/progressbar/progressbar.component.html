@@ -1,0 +1,11 @@
+<div id="bar-container">
+  <ng-container *ngFor="let step of questions">
+    <div [id]="step + 1" class="step" [style.background]="getColor(x)" #x>
+      {{ step + 1 }}
+    </div>
+    <div 
+    *ngIf="step !== totalQuestions - 1" 
+    class="path"
+    [id]="step + 2" [style.background]="getColor(y)" #y></div>
+  </ng-container>
+</div>

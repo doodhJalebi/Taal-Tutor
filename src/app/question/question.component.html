@@ -1,0 +1,17 @@
+<div id="question-container">
+    <h3>Guess the taal:</h3>
+    <div id="video-container">
+        <iframe
+        width="560"
+        height="315"
+        [src]="safeURL"
+      >
+      </iframe>
+    </div>
+    <div id="question-body">
+      <select name="taals" id="select-taals" [(ngModel)]="selectedOption">
+        <option *ngFor="let opt of options" [value]="opt">{{ opt }}</option>
+      </select>
+      <button id="submit-button" (click)="onSubmit()">Submit</button>
+    </div>
+</div>

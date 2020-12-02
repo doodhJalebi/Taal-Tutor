@@ -1,0 +1,23 @@
+
+.step {
+    text-align: center;
+    display: inline-block;
+    /* background-color: yellow; */
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0.1em;
+    color: black;
+}
+
+.path {
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}

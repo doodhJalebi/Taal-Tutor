@@ -1,0 +1,17 @@
+.theka-bol {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+table, tr, td {
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    color: white;
+}
+
+app-theka-player {
+    float: right;
+    margin-top: 0.2em;
+}
